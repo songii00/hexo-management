@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Pod, Service 알아보기 - 쿠버네티스 기본편 (1)"
-date: 2020-01-20:12:07:54 +0900
+date: 2021-01-20:01:05:21 +0900
 tags: [Kubernetes]
 categories: kubernetes
-thumbnailImage: https://songii00.github.io/assets/images/post/200713/(1).png
+thumbnailImage: https://songii00.github.io/assets/images/post/210120/(1).png
 thumbnailImagePosition: right
 autoThumbnailImage: yes
 ---
