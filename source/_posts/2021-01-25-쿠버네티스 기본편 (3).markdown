@@ -4,7 +4,7 @@ title: "클러스터 네트워킹 구성 - 쿠버네티스 기본편 (3)"
 date: 2021-01-27:01:19:23 +0900
 tags: [Kubernetes]
 categories: kubernetes
-thumbnailImage: https://songii00.github.io/assets/images/post/210120/(1).png
+thumbnailImage: https://songii00.github.io/assets/images/post/210125/(1).png
 thumbnailImagePosition: right
 autoThumbnailImage: yes
 ---

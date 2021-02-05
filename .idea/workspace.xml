@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d8b2954-c9d5-4033-8783-34b9abdfdd26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/source/_posts/2021-01-25-쿠버네티스 기본편 (2).markdown" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/2021-01-25-쿠버네티스 기본편 (3).markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/2021-02-05-파이썬 코딩의 기술 01.markdown" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/themes/next/layout/ads/adsense.ejs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/themes/next/source/ads.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/2021-01-25-쿠버네티스 기본편 (3).markdown" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2021-01-25-쿠버네티스 기본편 (3).markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/next" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/next/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/next/layout/_layout.njk" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/layout/_layout.njk" afterDir="false" />
@@ -52,15 +52,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/next/layout/page.njk">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/next/layout/post.njk">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
@@ -81,12 +72,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/_posts/2021-01-25-쿠버네티스 기본편 (3).markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="325">
-                <caret line="114" column="2" selection-start-line="114" selection-start-column="2" selection-end-line="114" selection-end-column="2" />
+              <first_editor relative-caret-position="225">
+                <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="13" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/_posts/2021-02-05-파이썬 코딩의 기술 01.markdown">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="285">
+                <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
               </first_editor>
               <second_editor />
             </state>
@@ -194,6 +197,7 @@
         <option value="$PROJECT_DIR$/themes/next/layout/post.njk" />
         <option value="$PROJECT_DIR$/source/_posts/2021-01-25-쿠버네티스 기본편 (2).markdown" />
         <option value="$PROJECT_DIR$/source/_posts/2021-01-25-쿠버네티스 기본편 (3).markdown" />
+        <option value="$PROJECT_DIR$/source/_posts/2021-02-05-파이썬 코딩의 기술 01.markdown" />
       </list>
     </option>
   </component>
@@ -208,9 +212,9 @@
     <option name="jreName" value="12" />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="1301" />
-    <option name="y" value="23" />
-    <option name="width" value="139" />
+    <option name="x" value="402" />
+    <option name="y" value="79" />
+    <option name="width" value="781" />
     <option name="height" value="821" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -330,12 +334,12 @@
       <workItem from="1610461000672" duration="18462000" />
       <workItem from="1611472993766" duration="69000" />
       <workItem from="1611473111627" duration="8346000" />
-      <workItem from="1611672489884" duration="9285000" />
+      <workItem from="1611672489884" duration="12712000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39226000" />
+    <option name="totallyTimeSpent" value="42653000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -375,14 +379,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scaffolds/post.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scaffolds/page.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -766,8 +762,18 @@
     <entry file="file://$PROJECT_DIR$/source/_posts/2021-01-25-쿠버네티스 기본편 (3).markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="325">
-            <caret line="114" column="2" selection-start-line="114" selection-start-column="2" selection-end-line="114" selection-end-column="2" />
+          <first_editor relative-caret-position="225">
+            <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/2021-02-05-파이썬 코딩의 기술 01.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="285">
+            <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           </first_editor>
           <second_editor />
         </state>
