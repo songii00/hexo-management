@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d8b2954-c9d5-4033-8783-34b9abdfdd26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/source/_posts/2021-02-05-파이썬 코딩의 기술 01.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/2021-02-15-쿠버네티스 기본편 (4).markdown" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/themes/next/layout/ads/adsense.ejs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/themes/next/source/ads.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2021-01-25-쿠버네티스 기본편 (3).markdown" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2021-01-25-쿠버네티스 기본편 (3).markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/next" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/next/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/next/layout/_layout.njk" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/layout/_layout.njk" afterDir="false" />
@@ -52,10 +51,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/next/layout/post.njk">
+        <entry file="file://$PROJECT_DIR$/themes/next/layout/ads/adsense.ejs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/next/layout/_layout.njk">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="60">
+              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/_posts/2021-02-15-쿠버네티스 기본편 (4).markdown">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="598">
+                <caret line="432" column="106" selection-start-line="432" selection-start-column="106" selection-end-line="432" selection-end-column="106" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -76,20 +92,29 @@
         <entry file="file://$PROJECT_DIR$/source/_posts/2021-01-25-쿠버네티스 기본편 (3).markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="225">
-                <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="13" />
+              <first_editor relative-caret-position="610">
+                <caret line="133" selection-start-line="133" selection-end-line="133" selection-end-column="15" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/next/layout/post.njk">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/_posts/2021-02-05-파이썬 코딩의 기술 01.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="285">
-                <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <first_editor relative-caret-position="-839">
+                <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
               </first_editor>
               <second_editor />
             </state>
@@ -120,29 +145,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/next/source/ads.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="23" selection-start-column="23" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1110">
-              <caret column="74203" selection-start-column="74203" selection-end-column="74203" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/next/layout/_partials/post/post-meta.njk">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -163,10 +165,18 @@
       <find>중요!</find>
       <find>partial</find>
       <find>post-nav</find>
-      <find>adsense.ejs</find>
       <find>{% include '../ads/adsense.ejs' %}</find>
       <find>kubenet</find>
+      <find>abcense</find>
+      <find>adsense.ejs</find>
+      <find>adsense</find>
+      <find>shell</find>
+      <find>*</find>
+      <find>애너테이션</find>
     </findStrings>
+    <replaceStrings>
+      <replace>어노테이션</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -196,8 +206,10 @@
         <option value="$PROJECT_DIR$/themes/next/layout/page.njk" />
         <option value="$PROJECT_DIR$/themes/next/layout/post.njk" />
         <option value="$PROJECT_DIR$/source/_posts/2021-01-25-쿠버네티스 기본편 (2).markdown" />
-        <option value="$PROJECT_DIR$/source/_posts/2021-01-25-쿠버네티스 기본편 (3).markdown" />
         <option value="$PROJECT_DIR$/source/_posts/2021-02-05-파이썬 코딩의 기술 01.markdown" />
+        <option value="$PROJECT_DIR$/themes/next/layout/ads/adsense.ejs" />
+        <option value="$PROJECT_DIR$/source/_posts/2021-01-25-쿠버네티스 기본편 (3).markdown" />
+        <option value="$PROJECT_DIR$/source/_posts/2021-02-15-쿠버네티스 기본편 (4).markdown" />
       </list>
     </option>
   </component>
@@ -334,12 +346,12 @@
       <workItem from="1610461000672" duration="18462000" />
       <workItem from="1611472993766" duration="69000" />
       <workItem from="1611473111627" duration="8346000" />
-      <workItem from="1611672489884" duration="12712000" />
+      <workItem from="1611672489884" duration="17489000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42653000" />
+    <option name="totallyTimeSpent" value="47430000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -379,14 +391,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scaffolds/page.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scaffolds/draft.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -674,31 +678,10 @@
     <entry file="file://$PROJECT_DIR$/source/ads.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/next/layout/ads/adsense.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/next/layout/_layout.njk">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="135" selection-start-line="8" selection-start-column="135" selection-end-line="8" selection-end-column="135" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/next/layout/page.njk">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/next/layout/post.njk">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
@@ -759,21 +742,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/2021-01-25-쿠버네티스 기본편 (3).markdown">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="225">
-            <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/themes/next/layout/post.njk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/next/layout/ads/adsense.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/next/layout/_layout.njk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/2021-02-05-파이썬 코딩의 기술 01.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="285">
-            <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <first_editor relative-caret-position="-839">
+            <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/2021-01-25-쿠버네티스 기본편 (3).markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="610">
+            <caret line="133" selection-start-line="133" selection-end-line="133" selection-end-column="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/2021-02-15-쿠버네티스 기본편 (4).markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="598">
+            <caret line="432" column="106" selection-start-line="432" selection-start-column="106" selection-end-line="432" selection-end-column="106" />
           </first_editor>
           <second_editor />
         </state>
