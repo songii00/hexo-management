@@ -12,7 +12,7 @@ categories: objects
 
 #### 디자인 패턴 
 
-![](5).jpeg) 
+![](5.jpeg) 
 
 <br>
 
@@ -126,7 +126,7 @@ categories: objects
 
 - Composite 패턴 
 
-  ![](3.png) 
+  ![](3.jpeg) 
 
   <br>
   
