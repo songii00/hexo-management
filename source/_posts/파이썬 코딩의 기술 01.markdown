@@ -1,0 +1,294 @@
+---
+layout: post
+title: "파이썬 코딩의 기술 01"
+date: 2021-02-05:11:33:32 +0900
+tags: [Python]
+categories: python
+---
+
+### Better way 6. 인덱스를 사용하는 대신 대입을 사용해 데이터를 언패킹하라. 
+
+#### tuple 튜플 
+
+- 불변한 순서가 있는 객체의 집합 
+- 한번 생성되면 값 변경 불가 
+- 딕셔너리의 키-값 쌍과 비슷하게 두값으로 이루어짐
+
+<!-- more -->
+
+```python
+pair = ('약과', '호박엿')
+print(pair[0])
+pair[1] = '한과'
+```
+
+#### 언패킹(풀기) 구문 
+
+- 한문장 안에 여러값 대입 
+
+```python
+item = ('호박엿', '식혜')
+first, second = item # 언패킹
+print(first, '&', second)
+```
+
+- 언패킹은 튜플보다 시작적 잡음 적음 
+- 언패킹을 사용하면 임시변수 정의하지 않고 값을 바꿀수 있음 
+
+```python
+def bublle_sort(a):
+for _ in range(len(a)): # 0부터 a의 길이 미만의 숫자를 포함하는 range 객체 생성
+    for i in range(1, len(a)):
+        if a[i] < a[i-1]:
+            a[i-1], a[i] = a[i], a[i-1] # 맞바꾸기
+
+names = ['프레즐', '당근', '쑥갓', '베이컨']
+bublle_sort(names)
+print(names)
+```
+
+#### enumerate 내장 함수와 언패킹 사용
+
+- enumberate : 인덱스 번호와 컬렉션의 원소를 tuple 형태로 반환
+- f-string 포매팅은 파이썬 버전 3.6 부터 사용
+- f'문자열 {변수} 문자열'
+
+```python
+snacks = [('베이컨', 350), ('도넛', 240), ('머핀', 190)]
+for rank, (name, calories) in enumerate(snacks, 1):
+    print(f'#{rank}: {name} 은 {calories} 칼로리 입니다. ')
+```
+
+#### 패킹과 언패킹
+
+- 패킹(packing) : 하나의 변수에 여러값을 할당하는 것
+- 언패킹(unpacking) : 하나의 변수에 여러개의 값이 담겨있을때 각각의 변수에 할당
+
+> 파이썬은 한 문장 안에서 여러 값을 대입할 수 있는 언패킹이라는 특별한 문법 제공 한다.
+> 파이썬 언패킹은 일반화돼 있으므로 모든 이터러블에 적용 가능. 이터러블이 여러 계층으로 내포된 경우에도 언패킹을 적용할 수 있다. 
+> 인덱스를 사용해 시퀀스 내부에 접근하는 대신 언패킹을 사용해 시각적인 잡음을 줄이고 코드를 더 명확하게 만들라. 
+
+<br>
+
+### Better way 7. range 보다는 enumerate를 사용하라.
+
+#### range
+
+- 정수 집합을 이터레이션하는 루프가 필요할때 유용 
+
+```python
+flavor_list = ['바닐라', '초콜릿', '피칸', '딸기']
+for flavor in flavor_list:
+    print(f'{flavor} 맛있어요.')
+```
+```python
+flavor_list = ['바닐라', '초콜릿', '피칸', '딸기']
+for i in range(len(flavor_list)):
+    flavor = flavor_list[i]
+    print(f'{i+1}: {flavor}')
+```
+
+- list 길이를 알아야 하고 인덱스를 사용해 배열에 접근해야함 
+- 단계가 여러개라 코드 읽기 어려움 
+
+#### enumerate
+
+```python
+for i, flavor in enumerate(flavor_list):
+    print(f'{i+1}: {flavor}')
+```
+- range의 단점을 해결할 수 있는 enumerate 내장 함수 제공 
+- enumerate가 넘겨주는 쌍을 for문에서 간결하게 언패킹 
+
+> enumerate를 사용하면 이터레이터에 대해 루프를 돌면서 이터레이터에서 가져오는 원소의 인덱스까지 얻는 코드를 간결하게 작성할 수 있다. 
+> range에 대해 루프를 돌면서 시퀀스의 원소를 인덱스로 가져오기보다는 enumerate를 사용하라. 
+> enumerate의 두번째 파라미터로 어디부터 원소를 가져오기 시작할지 지정할수 있다.(디폴트는 0이다.)
+
+<br>
+
+### Better way 8. 여러 이터레이터에 대해 나란히 루프를 수행하려면 zip을 사용하라.
+
+#### 리스트 컴프리헨션
+
+```python
+names = ['Cecila', '남궁민수', 'zoe']
+counts = [len(n) for n in names]
+print(counts)
+```
+
+- 반복되거나 특정 조건을 만족하는 리스트를 보다 쉽게 만들어 내기 위한 방법
+- 대괄호 [] 로 감싸고 내부에 for문과 if 문을 사용하여 반복하며 조건에 만족하는 것만 리스트로 생성
+- 사용하는 이유는 직관적이고, 여러줄의 코드를 압축해 한줄로 만들어줌 
+- 리스트나 딕셔너리, Set의 자료 구조를 보다 쉽게 검색, 추출할 수 있게 하는 문법
+
+> https://bio-info.tistory.com/28
+> https://nowonbun.tistory.com/651
+
+step 1)
+
+```python
+names = ['Cecila', '남궁민수', 'zoe']
+counts = [len(n) for n in names]
+max_count = 0
+longest_name = None
+
+for i in range(len(names)):
+    count = counts[i]
+    if count > max_count:
+        longest_name = names[i]
+        max_count = count
+
+print(longest_name)
+```
+
+step 2) enumerate 사용 
+
+```python
+for i, name in enumerate(names):
+    count = counts[i]
+    if count > max_count:
+        longest_name = name
+        max_count = count
+
+print(longest_name)
+```
+
+step 3) zip 사용 
+
+```python
+for name, count in zip(names, counts):
+    if count > max_count:
+        longest_name = name
+        max_count = count
+
+print(longest_name)
+```
+
+step 4) zip_longest 
+
+```python
+import itertools
+...
+
+for name, count in itertools.zip_longest(names, counts):
+    print(f'{name}: {count}')
+```
+
+<br>
+
+> zip 내장함수를 사용해 여러 이터레이터를 나란히 이터레이션할 수 있다. 
+> zip은 튜플을 지연계산하는 제네레이터를 만든다. 따라서 무한히 긴 입력에도 zip 을 쓸수 있다. 
+> 입력 이터레이터의 길이가 서로 다르면 zip은 아무런 경고도 없이 가장 짧은 이터레이터 길이까지만 튜플을 내놓고 더 긴 이터레이터의 나머지 원소는 무시한다. 
+> 가장 짧은 이터레이터에 맞춰 길이를 제한하지 않고 길이가 서로 다른 이터레이터에 대해 루프를 수행하려면 itertools 내장모듈의 zip_longes 함수를 사용하라. 
+
+<br>
+
+### Better way 9. for나 while 루프 뒤에 else 블록을 사용하지 말라.
+
+```python
+for i in range(3): # 0부터 3미만 숫자까지 range를 만듬
+    print('loop', i)
+else: # 반복 수행되는 루프 블록 바로 다음에 else 블록 추가 가능
+    print('Else block!')
+```
+
+- 루프가 정상적으로 완료되지 않으면 이 블록을 실행하라 는 뜻이 아님
+- 파이썬에서 루프와 같은 간단한 구성 요소는 그 자체로 의미가 명확해야 함 
+
+> 루프 뒤에 오는 else 블록은 루프가 반복되는 도중에 break를 만나지 않은 경우에만 실행된다. 
+> 동작이 직관적이지 않고 혼동을 야기할 수 있으므로 루프 뒤에 else 블록을 사용하지 말라. 
+
+<br>
+
+### Better way 10. 대입식을 사용해 반복을 피하라.
+
+#### 왈러스 연산자 
+
+- 대입식을 영어로 왈러스 연산자 
+- 파이썬 3.8 새로 도입 
+- 코드 중복 문제 해결  
+- 대입문이 쓰일 수 없는 위치에서 변수에 값을 대입할 수 있으므로 유용 
+
+> a:=b (a 왈러스 b) 
+
+case A : step 1) 
+
+```python
+fresh_fruit = {
+'사과': 10,
+'바나나': 8,
+'레몬': 5,
+}
+
+def make_lemonade(count):
+    print(f'레몬에이드 만듬 {count}')
+
+def out_of_stock():
+    print('재고 벗어남')
+
+count = fresh_fruit.get('레몬', 0) # count 변수는 if문 안에서만 사용
+if count:
+    make_lemonade(count)
+else:  # 레몬이 없으면 0
+    out_of_stock()
+```
+
+case A : step 2) 대입문으로 개선
+
+ ```python
+def make_lemonade(count): # 레몬에이드 만듬
+    print(f'레몬에이드 만듬 {count}')
+
+def out_of_stock():
+    print('재고 벗어남')
+
+if count := fresh_fruit.get('레몬',0):
+    make_lemonade(count)
+else:  # 레몬이 없으면 0
+    out_of_stock()
+```
+
+case B : step 1) 
+
+ ```python
+count = fresh_fruit.get('바나나', 0)
+if count >= 2:
+    pieces = slice_bananas(count)
+    to_enjoy = make_smoothies(pieces)
+else:
+    count = fresh_fruit.get('사과', 0)
+    if count >=4:
+        to_enjoy = make_cider(count)
+    else:
+        count = fresh_fruit.get('레몬', 0)
+        if count:
+            to_enjoy = make_lemonade(count)
+        else:
+            to_enjoy = '아무것도 없음'
+ ```
+ 
+ - python에는 switch/case 문이 없음 
+ - 일반적으로 if, elif, else 문을 깊게 내포 
+
+case B : step 2) 왈러스 연산자 사용
+
+```python
+if (count := fresh_fruit.get('바나나', 0)) >= 2:
+    pieces = slice_bananas(count)
+    to_enjoy = make_smoothies(pieces)
+elif (count := fresh_fruit.get('사과', 0)) >= 4:
+    to_enjoy = make_cider(count)
+elif (count := fresh_fruit.get('레몬', 0)):
+    to_enjoy = make_lemonade(count)
+else:
+    to_enjoy = '아무것도 없음'
+```
+
+- 왈러스 연산자 사용해 switch/case 문과 같은 다중 선택 전용 구문과 비슷한 해법
+
+<br>
+
+> 대입식에서는 왈러스 연산자를 사용해 하나의 식 안에서 변수 이름에 값을 대입하면서 이 값을 평가할 수 있고 중복을 줄일수 있다. 
+> 대입식이 더 큰 식의 일부분으로 쓰일 때는 괄호로 둘러싸야 한다. 
+> 파이썬에서는 switch/case 문이나 do/while 루프를 쓸 수 없지만, 대입식을 사용하면 이런 기능을 더 깔끔하게 흉내 낼 수 있다.
+> 코드가 못생기게 보이기 시작한다면 왈러스 연산자를 사용해 가능 한 그런 요소를 없애기 위해 노력할 것을 권장한다. 
