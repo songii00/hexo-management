@@ -295,18 +295,9 @@ spec:
 <br>
 
 
-###### 출처 <br/>
-
-
-https://medium.com/google-cloud/kubernetes-nodeport-vs-loadbalancer-vs-ingress-when-should-i-use-what-922f010849e0
-
-https://futurecreator.github.io/2019/02/25/kubernetes-cluster-on-google-compute-engine-for-developers/
-
-https://subicura.com/2019/05/19/kubernetes-basic-1.html
-
-https://medium.com/finda-tech/kubernetes-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%A0%95%EB%A6%AC-fccd4fd0ae6
-
-https://blog.leocat.kr/notes/2019/08/22/translation-kubernetes-nodeport-vs-loadbalancer-vs-ingress
-
-
-<br>
+###### 출처
+> https://medium.com/google-cloud/kubernetes-nodeport-vs-loadbalancer-vs-ingress-when-should-i-use-what-922f010849e0
+> https://futurecreator.github.io/2019/02/25/kubernetes-cluster-on-google-compute-engine-for-developers/
+> https://subicura.com/2019/05/19/kubernetes-basic-1.html
+> https://medium.com/finda-tech/kubernetes-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%A0%95%EB%A6%AC-fccd4fd0ae6
+> https://blog.leocat.kr/notes/2019/08/22/translation-kubernetes-nodeport-vs-loadbalancer-vs-ingress
