@@ -12,8 +12,8 @@ subtitle : Clean Architecture - Item 25
 
 ### 옴퍼스 사냥 게임 
 
-#### 움퍼스 사냥 게임 : [https://www.youtube.com/watch?reload=9&v=xGVOw8gXl6Y][link01] <br/>
-[link01]: https://www.youtube.com/watch?reload=9&v=xGVOw8gXl6Y
+#### 움퍼스 사냥 게임 
+> https://www.youtube.com/watch?reload=9&v=xGVOw8gXl6Y
 
 ![factory method pattern](11.png)
 
