@@ -5,94 +5,117 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ada09f2a-0117-4fe6-9e4a-edbdef63f1b0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 22.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 23.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 24.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 25.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 26.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 27.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 28.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 30.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 31.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 32.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 33.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 34.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 01.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 02.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 03.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 04.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/SpringBatchTest만들기.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/DDDStart!_Item_1/(1).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/DDDStart!_Item_1/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/DDDStart!_Item_1/(2).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/DDDStart!_Item_1/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/DDDStart!_Item_1/(3).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/DDDStart!_Item_1/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/DDDStart!_Item_1/(4).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/DDDStart!_Item_1/4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/DDDStart!_Item_1/(5).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/DDDStart!_Item_1/5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/DDDStart!_Item_1/(6).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/DDDStart!_Item_1/6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/DDDStart!_Item_2/(1).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/DDDStart!_Item_2/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/DDDStart!_Item_2/(10).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/DDDStart!_Item_2/10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/DDDStart!_Item_2/(2).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/DDDStart!_Item_2/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/DDDStart!_Item_2/(3).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/DDDStart!_Item_2/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/DDDStart!_Item_2/(4).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/DDDStart!_Item_2/4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/DDDStart!_Item_2/(5).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/DDDStart!_Item_2/5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/DDDStart!_Item_2/(6).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/DDDStart!_Item_2/6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/DDDStart!_Item_2/(7).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/DDDStart!_Item_2/7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/DDDStart!_Item_2/(8).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/DDDStart!_Item_2/8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/DDDStart!_Item_2/(9).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/DDDStart!_Item_2/9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/DI,DIP,IOC/(1).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/DI,DIP,IOC/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/DI,DIP,IOC/(2).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/DI,DIP,IOC/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/GeneratedValue 기본키 영속성 관리/(1).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/GeneratedValue 기본키 영속성 관리/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/GeneratedValue 기본키 영속성 관리/(2).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/GeneratedValue 기본키 영속성 관리/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 05/(1).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 05/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 05/(2).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 05/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 05/(3).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 05/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 05/(4).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 05/4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 05/(5).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 05/5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 05/(6).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 05/6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 05/(7).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 05/7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 05/(8).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 05/8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 06/(1).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 06/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 06/(2).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 06/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 06/(3).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 06/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 07/(1).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 07/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 07/(2).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 07/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 07/(3).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 07/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 07/(4).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 07/4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 08/(1).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 08/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 08/(2).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 08/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 08/(3).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 08/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 08/(4).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 08/4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 08/(5).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 08/5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 09/(1).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 09/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 09/(2).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 09/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 09/(3).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 09/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 09/(4).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 09/4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 09/(5).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 09/5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 09/(6).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 09/6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 09/(7).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 09/7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 10/(1).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 10/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 10/(2).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 10/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 11/(1).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 11/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 11/(2).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 11/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 11/(3).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 11/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 11/(4).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 11/4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 11/(5).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 11/5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 11/(6).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 11/6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 12/(1).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 12/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 12/(2).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 12/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 12/(3).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 12/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 12/(4).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 12/4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 12/(5).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 12/5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 12/(6).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 12/6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 12/(7).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 12/7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 12/(8).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 12/8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 12/(9).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 12/9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 13/(1).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 13/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 13/(2).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 13/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 13/(3).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 13/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 13/(4).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 13/4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 13/스크린샷 2020-05-03 오후 3.34.58.png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 13/5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 14/(1).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 14/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 14/(2).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 14/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 14/(3).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 14/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 14/(4).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 14/4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 14/(5).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 14/5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 14/(6).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 14/6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 15/(1).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 15/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 15/(2).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 15/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 15/(3).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 15/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 15/(4).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 15/4.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 15/(5).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 15/5.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 15/(6).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 15/6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 15/(7).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 15/7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 15/(8).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 15/8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/양방향연관관계주의사항/(1).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/양방향연관관계주의사항/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/양방향연관관계주의사항/(2).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/양방향연관관계주의사항/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/양방향연관관계주의사항/(3).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/양방향연관관계주의사항/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/양방향연관관계주의사항/(4).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/양방향연관관계주의사항/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/OBJECTS Item 15.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 15.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191103/(1).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 18/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191103/(10).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 18/10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191103/(11).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 18/11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191103/(12).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 18/12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191103/(13).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 21/13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191103/(14).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 21/14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191103/(15).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 21/15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191103/(16).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 21/16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191103/(17).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 21/17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191103/(18).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 21/18.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191103/(19).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 21/19.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191103/(2).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 18/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191103/(3).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 18/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191103/(4).gif" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 18/4.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191103/(5).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 21/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191103/(6).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 21/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191103/(7).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 21/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191103/(8).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 18/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191103/(9).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 18/9.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191110/(1).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 22/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191110/(10).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 24/10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191110/(11).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 25/11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191110/(12).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 25/12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191110/(13).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 25/13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191110/(14).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 25/14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191110/(15).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 25/15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191110/(16).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 25/16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191110/(2).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 22/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191110/(3).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 22/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191110/(4).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 22/4.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191110/(5).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 23/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191110/(6).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 23/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191110/(7).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 23/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191110/(8).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 24/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191110/(9).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 24/9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191117/(1).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 27/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191117/(2).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 27/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191117/(3).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 27/3.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191117/(4).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 27/4.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191117/(5).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 27/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191117/(6).gif" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 26/6.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191117/(7).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 27/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191117/(8).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 29/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191125/(1).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 30/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191125/(10).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 34/10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191125/(11).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 34/11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191125/(12).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 34/12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191125/(13).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 34/13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191125/(14).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 34/14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191125/(15).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 34/15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191125/(16).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 34/16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191125/(17).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 31/17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191125/(18).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 32/18.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191125/(19).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 34/19.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191125/(2).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 30/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191125/(3).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 30/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191125/(4).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 33/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191125/(5).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 33/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191125/(6).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 33/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191125/(7).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 34/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191125/(8).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 34/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/191125/(9).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 34/9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/200115/(1).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 01/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/200115/(2).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 01/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/200115/(3).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 01/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/200115/(4).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 01/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/200115/(5).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 01/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/200115/(6).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 01/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/200115/(7).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 01/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/200127/(1).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 02/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/200127/(2).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 02/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/200127/(3).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 02/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/200127/(4).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 02/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/200127/(5).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 02/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/200127/(6).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 02/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/200127/(7).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 02/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/200127/(8).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 02/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/200127/(9).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 02/9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/200201/(1).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 03/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/200201/(2).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 03/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/200201/(3).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 03/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/200201/(4).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 03/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/200201/(5).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 03/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/200201/(6).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 03/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/200201/(7).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 03/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/200201/(8).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 03/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/200209/(1).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 04/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/200209/(2).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 04/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/200209/(3).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 04/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/200209/(4).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 04/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/200209/(5).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/OBJECTS Item 04/5.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,11 +152,11 @@
       <recent name="$PROJECT_DIR$/source/_posts/2021-02-15-쿠버네티스 기본편 (4)" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/source/_posts/OBJECTS Item 05" />
-      <recent name="$PROJECT_DIR$/source/_posts/OBJECTS Item 06" />
-      <recent name="$PROJECT_DIR$/source/_posts/OBJECTS Item 07" />
-      <recent name="$PROJECT_DIR$/source/_posts/OBJECTS Item 08" />
-      <recent name="$PROJECT_DIR$/source/_posts/OBJECTS Item 09" />
+      <recent name="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 18" />
+      <recent name="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 21" />
+      <recent name="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 24" />
+      <recent name="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 23" />
+      <recent name="$PROJECT_DIR$/source/_posts/CleanArchitecture Item 22" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -145,6 +168,7 @@
       <option name="presentableId" value="Default" />
       <updated>1644593128081</updated>
       <workItem from="1644593130033" duration="4546000" />
+      <workItem from="1646291132801" duration="2968000" />
     </task>
     <servers />
   </component>
@@ -158,5 +182,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
