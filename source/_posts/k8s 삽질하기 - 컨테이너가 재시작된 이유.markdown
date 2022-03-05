@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "k8s 삽질하기 - 컨테이너가 재시작된 이유"
-date: 2021-03-06:00:34:21 +0900
+date: 2022-03-06:00:34:21 +0900
 tags: [Kubernetes]
 categories: kubernetes
 ---
