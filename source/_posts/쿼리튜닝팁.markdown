@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "쿼리튜닝 팁"
+date:   2019-08-10 17:47:13 +0900
+tags: [database]
+categories: database
+subtitle : 자잘한 팁
+---
+
+#### 1. 복합인덱스 
+- 복합 인덱스 사용 시 equal 조건은 좌측으로 <>,between등 range 조건 혹은 order by, group by 조건은 우측으로 배치하자.
+
+#### 2. ppredicate pushdown
+
+- outer query의 where 조건을 inner query로 밀어넣어 처리량을 줄이자.
+
+#### 3. limit 절
+- limit 절은 full scan 이나 index scan 조건에 맞는 개수를 만족하면 스캔을 중단한다. 하지만 order by와 함께 사용할 경우 먼저 자르게 될 때 순서를 알수 없다.
+따라서, 순서대로 정렬한다음에 limit 하게 되는데 결국 성능이 떨어진다. 
+또한, union + order by는 인덱스를 사용하지 못하기 때문에 filesort 유발한다.
+
+#### 4. group by 
+- group by 는 기본적으로 정렬을 수반하므로, 정렬이 필요하지 않을 경우 order by null 구문을 활용하자.
