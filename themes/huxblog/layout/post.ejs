@@ -45,6 +45,10 @@ layout: layout
                 col-md-10 col-md-offset-1
                 post-container">
 
+                <!-- ad start -->
+                <%- partial('adsense/google-adsense-horizontal') %>
+                <!-- ad end -->
+
                 <%- page.content %>
 
                 <hr>
@@ -86,6 +90,10 @@ layout: layout
                         </li>
                     <% } %>
                 </ul>
+
+                <!-- ad start -->
+                <%- partial('adsense/google-adsense-multi') %>
+                <!-- ad end -->
 
                 <% if(config['duoshuo_username']) { %>
                 <!-- 多说评论框 start -->
