@@ -91,10 +91,6 @@ layout: layout
                     <% } %>
                 </ul>
 
-                <!-- ad start -->
-                <%- partial('adsense/google-adsense-multi') %>
-                <!-- ad end -->
-
                 <% if(config['duoshuo_username']) { %>
                 <!-- 多说评论框 start -->
                 <div class="comment">
@@ -153,6 +149,10 @@ layout: layout
                 </section>
                 <% }%>
 
+                <!-- ad start -->
+                <%- partial('adsense/google-adsense-multi') %>
+                <!-- ad end -->
+                
                 <!-- Friends Blog -->
                 <% if(config.friends) { %>
                 <hr>
